@@ -1,4 +1,8 @@
 public class Order {
+    public static final String STATUS_PAID      = "PAID";
+    public static final String STATUS_PENDING   = "PENDING";
+    public static final String STATUS_CANCELLED = "CANCELLED";
+
     private String id;
     private String customerName;
     private String product;
